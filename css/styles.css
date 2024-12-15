@@ -39,6 +39,13 @@ body {
   /* outline: 1px dashed white; */
   padding: 2.4rem;
   margin: 0 auto;
+  box-shadow: 0 2.4rem 4.8rem rgba(238, 235, 235, 0.552);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2.4rem 4.8rem rgba(238, 235, 235, 0.202);
 }
 
 .card__header {
@@ -103,6 +110,11 @@ body {
   gap: 0.4rem;
 }
 
+.nft-days:hover img {
+  transform: rotate(1080deg);
+  transition: 0.8s;
+}
+
 .nft-amount-text {
   color: hsl(178, 100%, 50%);
   font-weight: 600;
@@ -134,6 +146,11 @@ body {
 
 .card__footer-text span {
   color: #fff;
+}
+
+.attribution-name {
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
