@@ -2,7 +2,7 @@
 
 ## Project Deployment
 
-- [Netlify](https://pages.github.com/)
+- [Netlify](https://maxkdavis-nft-card-component.netlify.app/)
 
 ## About this Project
 
